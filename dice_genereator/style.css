@@ -1,0 +1,42 @@
+#dicerollerContainer{
+    text-align: center;
+    font-family: Helvetica ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#dicerollerButton{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(15, 150, 150);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.07s;
+}
+
+#dicerollerButton:hover{
+    background-color:rgb(16, 185, 185);
+}
+
+#dicerollerButton:active{
+    background-color:rgb(8, 248, 248);
+}
+
+#dicerollerInput{
+    font-size: 2rem;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+}
+
+#diceResult{
+    margin: 35px;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
